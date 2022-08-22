@@ -884,7 +884,8 @@ export const ordersGrid = [
     editType: 'dropdownedit',
     textAlign: 'Center',
   },
-  { field: 'CustomerName',
+  { 
+    field: 'CustomerName',
     headerText: 'Customer Name',
     width: '150',
     textAlign: 'Center',

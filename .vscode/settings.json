@@ -4,6 +4,7 @@
         "Kanban",
         "richtexteditor",
         "sparkline",
-        "syncfusion"
+        "syncfusion",
+        "yval"
     ]
 }

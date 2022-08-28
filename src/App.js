@@ -6,6 +6,7 @@ import {Navbar, Footer, Sidebar, ThemeSettings, LineChart} from './component';
 import {Ecommerce, Orders, Calendar, Employees, Stacked, Pyramid, Customers, Kanban, Area, Bar, Pie, Line, Financial, ColorPicker, ColorMapping, Editor} from './pages';
 import './App.css';
 import { useStateContext } from './contexts/ContextProvider';
+import Searches from './pages/Searches';
 const App = () => {
   const {activeMenu, themeSettings, setThemeSettings, currentColor, currentMode} = useStateContext();
   return (
@@ -50,6 +51,7 @@ const App = () => {
                     <Route path='/kanban' element={<Kanban/>}/>
                     <Route path='/editor' element={<Editor/>}/>
                     <Route path='/color-picker' element={<ColorPicker/>}/>
+                    <Route path='/search' element={<Searches/>}/>
 
                     {/* Charts */}
                     <Route path='/line' element={<Line/>}/>
